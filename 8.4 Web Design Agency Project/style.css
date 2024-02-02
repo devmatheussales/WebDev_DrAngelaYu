@@ -6,7 +6,7 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
-.main {
+main {
   flex: 1;
 }
 
@@ -14,8 +14,45 @@ h1 {
   font-size: 5rem;
 }
 
-footer {
-  text-align: right;
+h2 {
+  text-align: justify;
+}
+
+span#creative {
   color: midnightblue;
 }
 
+
+
+main > article.left-card {
+  height: 100%;
+  width: 48%;
+  display: block;
+  float: left;
+}
+
+main > article.right-card {
+  width: 48%;
+  display: block;
+  float: right;
+}
+
+article > img {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+article > p {
+  text-align: justify;
+  display: block;
+}
+
+
+
+footer {
+  position: relative;
+  clear: both;
+  text-align: right;
+  color: midnightblue;
+  position: bottom right;
+}
