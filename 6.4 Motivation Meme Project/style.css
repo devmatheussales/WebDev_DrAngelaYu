@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&display=swap');
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+div#meme {
+    text-align: center;
+    margin: auto;
+    margin: 10vw;
+}
+div#meme > img {
+    width: 100%;
+}
+img {
+    border: 5px solid white;
+}
+h1 {
+    font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+}
