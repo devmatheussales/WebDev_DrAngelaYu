@@ -10,11 +10,68 @@
     />
     <style>
       body {
+        background-color: white;
         font-family: "Sono", sans-serif;
       }
 
+      div.pricing-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        gap: 2rem;
+      }
+      
+      div.pricing-plan {
+        flex: 1;
+        max-width: 400px;
+        padding: 20px;
+        background-color: #F2F2F2;
+        border-radius: 5px;
+        text-align: center;
+      }
+      
+      div.plan-title {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      div.plan-price {
+        font-size: 2.8rem;
+        font-weight: bolder;
+        margin-bottom: 10px;
+      }
+      div.plan-features {
+        padding: 0;
+        margin: 0;
+      }
+      div.plan-features >  li {
+        margin-bottom: 20px;
+      }
+      li {
+        list-style-type: none;
+      }
+      
+      button {
+        background-color: #FF6600;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+        height: 40px;
+        margin: auto;
+      }
+
+
+
+
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        div.pricing-container {
+          flex-direction: column;
+          height: 100%;
+        }
       }
     </style>
   </head>
